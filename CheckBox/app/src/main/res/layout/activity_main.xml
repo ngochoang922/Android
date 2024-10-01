@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E8E8E8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CompoundButton - XuanThuLab"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loại biến nào có thể dùng cho tên một thành phố?"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="int"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxDouble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="double"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="String"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tất cả các phương án"/>
+
+    <Button
+        android:id="@+id/buttonResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KẾT QUẢ"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GỢI Ý"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
