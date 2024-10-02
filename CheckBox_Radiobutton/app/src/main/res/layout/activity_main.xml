@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cho các loại kem sau:"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:background="#E9C147"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxKemBo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kem bơ"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxKemSauRieng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kem sầu riêng"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxKemDau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kem dâu"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn size"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#B343C0E0"/>
+
+    <RadioButton
+        android:id="@+id/radioButtonS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"/>
+
+    <RadioButton
+        android:id="@+id/radioButtonM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"/>
+
+    <RadioButton
+        android:id="@+id/radioButtonL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn đã chọn kem"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#EFB5B5"/>
+
+    <EditText
+        android:id="@+id/editTextKemChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hiển thị kem"
+        android:enabled="false"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kích cỡ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#EFB5B5"/>
+
+    <EditText
+        android:id="@+id/editTextKichCo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Size"
+        android:enabled="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/buttonThem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="THÊM"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/buttonXoa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="XOÁ"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
